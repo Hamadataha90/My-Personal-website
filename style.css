@@ -1,0 +1,13 @@
+/* Day Mode styles */
+body {
+	background-color: #ffffff88;
+	color: #000;
+}
+
+/* Night Mode styles */
+body.night-mode {
+	background-color: #0000007d;
+	color: #fff;
+}
+button {color: red; background-color: #000;
+}
