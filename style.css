@@ -11,3 +11,22 @@ body.night-mode {
 }
 button {color: red; background-color: #000;
 }
+
+
+.card {overflow: hidden;}
+.card-body:hover{transition: transform .2s; 
+	transform: scale(1.05); cursor: pointer;}
+/* .no-gutters:hover{transition: transform .2s; 
+	transform: scale(1.05); cursor: pointer;} */
+
+
+
+
+
+
+
+
+
+
+
+
