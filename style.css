@@ -7,7 +7,7 @@ body {
 /* Night Mode styles */
 body.night-mode {
 	background-color: #0000007d;
-	color: #d61515f;
+	color: #d61515;
 }
 button {color: red; background-color: #000;
 }
