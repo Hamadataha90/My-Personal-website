@@ -1,15 +1,17 @@
 /* Day Mode styles */
-body {
-	background-color: #ffffff88;
-	color: #000;
-}
+
 
 /* Night Mode styles */
-body.night-mode {
+/* body.night-mode {
 	background-color: #0000007d;
 	color: #d61515;
 }
 button {color: red; background-color: #000;
+} */
+
+
+#skills, #projects, #contact{
+	background-color: white;
 }
 
 
@@ -21,6 +23,53 @@ button {color: red; background-color: #000;
 
 
 
+	body{
+		background: linear-gradient(#31011e,#34023e);
+		font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+	overflow-x: hidden;
+	
+	}
+
+
+
+	.main{
+		position: relative;
+		height: 100vh;
+		width: 100%;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		overflow: hidden;
+	}
+	.main::after{
+		content: '';
+		position: absolute;
+		bottom: 0;
+		height: 100px;
+		width: 100%;
+	background: linear-gradient(to top,#31011e,transparent);}
+	
+	.main img{
+		position: absolute;
+		width: 100%;
+		height: 100vh;
+	}
+	#moon{
+		mix-blend-mode: screen;
+		transform: translateY(70px);
+	}
+	
+	.nouvil{
+		color: white;
+		font-size: 30px;
+		transform: translateY(-85px);
+	}
+
+	.full{
+		color: white;
+		font-size: 10px;
+		transform: translateY(-1px);
+	}
 
 
 
